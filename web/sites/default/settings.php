@@ -94,14 +94,14 @@
 $databases = [];
 
 $databases['default']['default'] = [
-  'database' => 'db',            // The name of the database (this is 'db')
-  'username' => 'db',            // The username to access the database (this is 'db')
-  'password' => 'db',            // The password for the database (this is 'db')
-  'host' => '127.0.0.1',         // The host for your DDEV database (this is '127.0.0.1')
-  'port' => '54138',             // The port number for your DDEV database (this is '54138')
-  'driver' => 'mysql',           // The driver you're using (MySQL in this case)
-  'prefix' => '',                // No table prefix is needed
-  'collation' => 'utf8mb4_general_ci', // Character set and collation for the database
+  'database' => 'db',
+  'username' => 'db',
+  'password' => 'db',
+  'host' => '127.0.0.1',
+  'port' => '54138',
+  'driver' => 'mysql',
+  'prefix' => '',
+  'collation' => 'utf8mb4_general_ci',
 ];
 
 

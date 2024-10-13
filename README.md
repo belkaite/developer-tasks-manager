@@ -1,4 +1,4 @@
-# Developer Task Manager
+# Developer task manager
 
 ## Project overview
 
@@ -10,10 +10,10 @@ Drupal based Developer Task Manager allows Senior Developers or Technical Leads 
 - Senior developers: can view, create, edit, delete tasks.
 - Junior developers: can view and edit tasks.
 
-## Main Features
+## Main features
 
 - Task creation and assignment can be done through content --> add content --> Task.
-- All Tasks have a custom view that displays them on the homepage with hey information in a table format, sorted in descending order by date.
+- All Tasks have a custom view that displays them on the homepage with key information in a table format, sorted in descending order by date.
 - Tasks can be filtered by name, junior and senior developers names, status and creation date.
 - In the Task List, clicking on the Task Name leads to the task's edit page.
 - Next to each tasks there is a 'View chart' option. Clicking on it shows Time estimation comparison (Senior vs. Junior vs. Actual time) in a chart.
@@ -40,12 +40,16 @@ Drupal based Developer Task Manager allows Senior Developers or Technical Leads 
   <br>
   <img src="images/image-1.png" width="500">
 
-## Future Enhancements
+## Future improvements
 
-- **Custom Theme Development**: develop a custom theme to provide a more tailored design and branding for the project.
-- **Twig Customization**: use Twig templating to further customize the layout and structure of the site.
+- **Custom theme**: develop a custom theme to provide a more tailored design and branding for the project.
+- **Twig**: use Twig templating to customize the layout and structure of the site.
 
-## Installation Instructions
+## Installation instructions
+
+### 0. Prerequisites
+
+Ensure you have DDEV, docker, composer and drush installed.
 
 ### 1. Get project files
 
@@ -114,7 +118,7 @@ $databases['default']['default'] = [
 ];
 ```
 
-### 6. Clear Cache
+### 7. Clear Cache
 
 Clear Drupal cache using Drush:
 
@@ -122,7 +126,7 @@ Clear Drupal cache using Drush:
 ddev drush cr
 ```
 
-### 7. Acces website via web server
+### 8. Acces website via web server
 
 Web server used is Nginx as it's the default for DDEV.
 By using ddev describe, you can find the URL to access your Drupal site.
