@@ -15,8 +15,14 @@ Drupal based Developer Task Manager allows Senior Developers or Technical Leads 
 - Task creation and assignment can be done through content --> add content --> Task.
 - All Tasks have a custom view that displays them on the homepage with key information in a table format, sorted in descending order by date.
 - Tasks can be filtered by name, junior and senior developers names, status and creation date.
+  - **Task view**:
+  <br>
+  <img src="images/image.png" width="500">
 - In the Task List, clicking on the Task Name leads to the task's edit page.
 - Next to each tasks there is a 'View chart' option. Clicking on it shows Time estimation comparison (Senior vs. Junior vs. Actual time) in a chart.
+  - **Chart View**:
+  <br>
+  <img src="images/image-1.png" width="500">
 - Superadmin is responsible for adding users, assigning them permissions and setting passwords. When users are logged in, they can view basic profile information under 'My account'.
 - The design was created using the Solo Theme for its active maintenance, clean and modern design and responsive layout.
 
@@ -30,15 +36,6 @@ Drupal based Developer Task Manager allows Senior Developers or Technical Leads 
 - **User profile**: /user/[id] - specific user profile.
 - **Task Charts**: /taskscharts/[id] - view task charts.
 
-## Project Preview
-
-- **Task view**:
-  <br>
-  <img src="images/image.png" width="500">
-
-- **Chart View**:
-  <br>
-  <img src="images/image-1.png" width="500">
 
 ## Future improvements
 
