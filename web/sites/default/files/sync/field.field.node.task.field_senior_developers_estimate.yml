@@ -1,0 +1,23 @@
+uuid: 50b724d5-c527-4a01-9025-e5aec198e170
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_senior_developers_estimate
+    - node.type.task
+id: node.task.field_senior_developers_estimate
+field_name: field_senior_developers_estimate
+entity_type: node
+bundle: task
+label: "Senior developer's estimated time"
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0.0
+  max: 999.99
+  prefix: ''
+  suffix: h
+field_type: decimal

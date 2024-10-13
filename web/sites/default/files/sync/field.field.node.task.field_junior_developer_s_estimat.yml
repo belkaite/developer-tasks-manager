@@ -1,0 +1,23 @@
+uuid: a5df1224-d868-42e6-b8ef-f551846a9fa1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_junior_developer_s_estimat
+    - node.type.task
+id: node.task.field_junior_developer_s_estimat
+field_name: field_junior_developer_s_estimat
+entity_type: node
+bundle: task
+label: "Junior developer's estimated time"
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0.0
+  max: 999.99
+  prefix: ''
+  suffix: h
+field_type: decimal

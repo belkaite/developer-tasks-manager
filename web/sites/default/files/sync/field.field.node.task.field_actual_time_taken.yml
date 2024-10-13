@@ -1,0 +1,23 @@
+uuid: 9446586f-0b51-4989-8cb8-40ad232f2279
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_actual_time_taken
+    - node.type.task
+id: node.task.field_actual_time_taken
+field_name: field_actual_time_taken
+entity_type: node
+bundle: task
+label: 'Actual time taken'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: h
+field_type: decimal

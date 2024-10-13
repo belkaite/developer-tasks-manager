@@ -1,0 +1,35 @@
+uuid: c4cbcbe5-06a5-42f1-aaab-07461486dda6
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+    - node.type.article
+    - node.type.page
+    - node.type.task
+  module:
+    - block_content
+    - node
+    - system
+    - toolbar
+id: senior_developer
+label: 'Senior developer'
+weight: 5
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access toolbar'
+  - 'access user profiles'
+  - 'create basic block content'
+  - 'create task content'
+  - 'delete any article content'
+  - 'delete any basic block content'
+  - 'delete any page content'
+  - 'delete any task content'
+  - 'delete own task content'
+  - 'edit any article content'
+  - 'edit any basic block content'
+  - 'edit any page content'
+  - 'edit any task content'
+  - 'edit own task content'
+  - 'view user email addresses'

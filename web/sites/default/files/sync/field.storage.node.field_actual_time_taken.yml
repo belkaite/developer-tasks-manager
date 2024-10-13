@@ -1,0 +1,20 @@
+uuid: c62a53d2-7ba7-4f26-8ff1-b3f38fdab0aa
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_actual_time_taken
+field_name: field_actual_time_taken
+entity_type: node
+type: decimal
+settings:
+  precision: 10
+  scale: 2
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

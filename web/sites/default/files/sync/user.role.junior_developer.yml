@@ -1,0 +1,18 @@
+uuid: d328fabd-f8d3-439c-8094-20513478bb45
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.page
+    - node.type.task
+  module:
+    - node
+id: junior_developer
+label: 'Junior developer'
+weight: 6
+is_admin: null
+permissions:
+  - 'edit any task content'
+  - 'edit own page content'
+  - 'edit own task content'
+  - 'view own unpublished content'

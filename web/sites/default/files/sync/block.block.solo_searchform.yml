@@ -1,0 +1,23 @@
+uuid: ccf9c237-e387-41f5-96c8-2f16334a6be8
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - solo
+_core:
+  default_config_hash: HQHQcZ2a8OaRqIizdtos5DLw951jmglxOVXqd_AP4vY
+id: solo_searchform
+theme: solo
+region: fixed_search_block
+weight: -15
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

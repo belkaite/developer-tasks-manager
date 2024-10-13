@@ -1,0 +1,25 @@
+uuid: a3de9583-8e5c-4a73-bd92-510aa7bc6f60
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_senior_developer
+    - node.type.task
+id: node.task.field_senior_developer
+field_name: field_senior_developer
+entity_type: node
+bundle: task
+label: 'Created by Senior developer'
+description: 'Select the Senior Developer responsible for this task.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: senior_developers_reference
+      display_name: entity_reference_1
+      arguments: {  }
+field_type: entity_reference

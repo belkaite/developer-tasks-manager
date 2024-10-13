@@ -1,0 +1,24 @@
+uuid: c5812e22-53f2-4526-8306-70e7900b30db
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.task_view
+  module:
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__task_view_block_1
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'views_block:task_view-block_1'
+settings:
+  id: 'views_block:task_view-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,21 @@
+uuid: 0fb26fb5-6c1f-4c69-baf8-e6a793c19c90
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_developer_level
+  module:
+    - options
+    - user
+id: user.user.field_developer_level
+field_name: field_developer_level
+entity_type: user
+bundle: user
+label: 'Developer level'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

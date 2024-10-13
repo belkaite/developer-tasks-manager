@@ -1,0 +1,13 @@
+uuid: 38457430-972b-4e24-a8b5-4d69e06554ce
+langcode: en
+status: true
+dependencies:
+  enforced:
+    theme:
+      - solo
+_core:
+  default_config_hash: hHcKRVS7lOuEq9z54dyf9ia1uQUJrJwxKSQI9XB-SfM
+id: solo_date_s
+label: 'Solo Date Short'
+locked: false
+pattern: 'j  F,  Y'

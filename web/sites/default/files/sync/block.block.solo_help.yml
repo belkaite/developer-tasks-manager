@@ -1,0 +1,22 @@
+uuid: 9b48d72d-3e89-4db3-b515-a20c2d9a7bf0
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - solo
+_core:
+  default_config_hash: LGJGe-DYcbB0SKNDqFWtxewDZGWfXDIvqxKWyYw9S3k
+id: solo_help
+theme: solo
+region: content
+weight: 3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

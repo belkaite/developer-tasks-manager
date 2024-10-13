@@ -1,0 +1,25 @@
+uuid: eb920184-8083-4617-827e-d06b5a6d814a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_assign_junior_developer
+    - node.type.task
+id: node.task.field_assign_junior_developer
+field_name: field_assign_junior_developer
+entity_type: node
+bundle: task
+label: 'Assign Junior developer'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: junior_developers_reference
+      display_name: entity_reference_1
+      arguments: {  }
+field_type: entity_reference

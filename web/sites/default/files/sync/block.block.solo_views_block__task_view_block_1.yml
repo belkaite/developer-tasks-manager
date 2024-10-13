@@ -1,0 +1,24 @@
+uuid: 781b9327-83f2-4dec-951f-1f958ecab392
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.task_view
+  module:
+    - views
+  theme:
+    - solo
+id: solo_views_block__task_view_block_1
+theme: solo
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:task_view-block_1'
+settings:
+  id: 'views_block:task_view-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

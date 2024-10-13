@@ -1,0 +1,102 @@
+uuid: 1a2a84d7-1310-4af9-9143-ebf0d3371a66
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.task.body
+    - field.field.node.task.field_actual_time_taken
+    - field.field.node.task.field_assign_junior_developer
+    - field.field.node.task.field_created_date
+    - field.field.node.task.field_junior_developer_s_estimat
+    - field.field.node.task.field_senior_developer
+    - field.field.node.task.field_senior_developers_estimate
+    - field.field.node.task.field_status
+    - node.type.task
+  module:
+    - datetime
+    - options
+    - text
+    - user
+id: node.task.default
+targetEntityType: node
+bundle: task
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_actual_time_taken:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_assign_junior_developer:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_created_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 108
+    region: content
+  field_junior_developer_s_estimat:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_senior_developer:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_senior_developers_estimate:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_status:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

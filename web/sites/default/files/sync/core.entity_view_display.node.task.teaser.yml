@@ -1,0 +1,44 @@
+uuid: b423cfdd-8c2c-4c14-8f90-191050edaf6f
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.task.body
+    - field.field.node.task.field_actual_time_taken
+    - field.field.node.task.field_assign_junior_developer
+    - field.field.node.task.field_created_date
+    - field.field.node.task.field_junior_developer_s_estimat
+    - field.field.node.task.field_senior_developer
+    - field.field.node.task.field_senior_developers_estimate
+    - field.field.node.task.field_status
+    - node.type.task
+  module:
+    - text
+    - user
+id: node.task.teaser
+targetEntityType: node
+bundle: task
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_actual_time_taken: true
+  field_assign_junior_developer: true
+  field_created_date: true
+  field_junior_developer_s_estimat: true
+  field_senior_developer: true
+  field_senior_developers_estimate: true
+  field_status: true
